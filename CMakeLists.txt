@@ -8,7 +8,7 @@ include_directories(include)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED true)
 
-add_executable(main src/main.cpp)
+add_executable(main "src/main.cpp" "src/SceneManager.cpp")
 
 if(NOT CMAKE_BUILD_TYPE STREQUAL "Debug") 
 	target_link_options(main PRIVATE "/SUBSYSTEM:WINDOWS" "/ENTRY:mainCRTStartup")
