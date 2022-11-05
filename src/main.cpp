@@ -1,7 +1,10 @@
 #include <raylib.h>
+#include "SceneManager.hpp"
 
 int main() {
 	InitWindow(800, 600, "Test Window");
+
+	SceneManager<3> sm;
 
 	while (!WindowShouldClose()) {
 
