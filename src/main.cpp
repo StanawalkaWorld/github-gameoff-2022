@@ -1,17 +1,19 @@
 #include <raylib.h>
+#include "Globals.hpp"
+
 #include "SceneManager.hpp"
+#include "TestScene.hpp"
 
 int main() {
-	InitWindow(800, 600, "Test Window");
+	InitWindow(WINDOW_WIDTH, WINDOW_HEIGHT, "Test Window");
 
 	SceneManager sm;
 
+	sm.LoadScene(new TestScene(), 0);
+
 	while (!WindowShouldClose()) {
 
-		BeginDrawing();
-			ClearBackground({ 10, 10, 10, 255 });
-			DrawText("Hello World!", 20, 20, 32, RAYWHITE);
-		EndDrawing();
+		sm.UpdateScene();
 	}
 
 	CloseWindow();
