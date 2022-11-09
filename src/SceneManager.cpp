@@ -8,6 +8,10 @@ void SceneManager::LoadScene(Scene* scene, int id)
 		return;
 
 	m_loaded_scenes[id] = std::unique_ptr<Scene>(scene);
+
+	if (id == m_current_scene)
+		m_loaded_scenes[id]->Start();
+
 	scene->sceneChangeEvent.Listen([this](int id) {
 		ChangeScene(id);
 	});
