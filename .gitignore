@@ -33,4 +33,7 @@
 
 # CMake
 out/*
+
+# Other
 /.vs
+Planning.md
