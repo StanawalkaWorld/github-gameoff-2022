@@ -4,7 +4,7 @@
 int main() {
 	InitWindow(800, 600, "Test Window");
 
-	SceneManager<3> sm;
+	SceneManager sm;
 
 	while (!WindowShouldClose()) {
 

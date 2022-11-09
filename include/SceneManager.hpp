@@ -4,9 +4,11 @@
 
 #include "Scene.hpp"
 
+constexpr int SCENE_N = 8;
+
 class SceneManager {
 private:
-	using SceneCollection = std::array<std::unique_ptr<Scene>, 8>;
+	using SceneCollection = std::array<std::unique_ptr<Scene>, SCENE_N>;
 	SceneCollection m_loaded_scenes;
 
 	int m_current_scene = 0;

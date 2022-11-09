@@ -2,8 +2,13 @@
 
 void SceneManager::LoadScene(Scene* scene, int id)
 {
-	if (id < 8)
+	if (id < SCENE_N)
+	{
 		m_loaded_scenes[id] = std::unique_ptr<Scene>(scene);
+		scene->sceneChangeEvent.Listen([this](int id) {
+			ChangeScene(id);
+		});
+	}
 }
 
 void SceneManager::UpdateScene()
@@ -14,7 +19,7 @@ void SceneManager::UpdateScene()
 
 void SceneManager::ChangeScene(int id)
 {
-	if (id < 8 && m_loaded_scenes[id]) {
+	if (id < SCENE_N && m_loaded_scenes[id]) {
 		m_loaded_scenes[m_current_scene]->Switch();
 
 		m_current_scene = id;
