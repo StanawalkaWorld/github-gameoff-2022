@@ -9,6 +9,8 @@ Repository containing source code of a game, that I made for Github GameOff 2022
 - [ ] Code
     - [x] Scene management
     - [ ] Player
+    - [ ] GameObjects with Component System
+    - [ ] Multiple Entity Renderer
     ...
 - [ ] Art
     - [ ] Player
