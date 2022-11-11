@@ -1,5 +1,14 @@
-# github-gameoff-2022
-Repository containing source code of a game, that I made for Github GameOff 2022 game jam on itch.io
+﻿# Buck Shot
+Repository containing source code of the game **Buck Shot**, that I made for Github GameOff 2022 game jam on itch.io
+
+## Premise of the game
+
+The game combines two cliches:
+
+- A fast buck
+- A long shot
+
+The goal of the game is to shoot as many *Bucks* as possible in a set amount of time. Helping you during this mission will be various power ups to really put that *bun in the oven* 😉.
 
 ## Todo
 
@@ -14,7 +23,9 @@ Repository containing source code of a game, that I made for Github GameOff 2022
     ...
 - [ ] Art
     - [ ] Player
-    - [ ] Enemies(?)
+    - [ ] *Bucks*
+        - [ ] Random *Buck* generation.
+        - [ ] *Bucks* give points on getting shot
     - [ ] Environment
 - [ ] Audio
     - [ ] BGM
