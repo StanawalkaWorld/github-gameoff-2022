@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED true)
 find_package(raylib CONFIG REQUIRED)
 
 include_directories(include)
-add_executable(main "src/main.cpp" "src/SceneManager.cpp" "src/GameScene.cpp" "src/GameObject.cpp")
+add_executable(main "src/main.cpp" "src/SceneManager.cpp" "src/Scenes/GameScene.cpp" "src/GameObjects/GameObject.cpp")
 
 add_custom_target(copy_assets
 	COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_CURRENT_LIST_DIR}/assets ${CMAKE_CURRENT_BINARY_DIR}/assets

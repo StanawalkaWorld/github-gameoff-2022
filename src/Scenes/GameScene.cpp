@@ -1,4 +1,4 @@
-#include "GameScene.hpp"
+#include "Scenes/GameScene.hpp"
 
 void GameScene::Start()
 {

@@ -2,7 +2,7 @@
 #include "Globals.hpp"
 
 #include "SceneManager.hpp"
-#include "GameScene.hpp"
+#include "Scenes/GameScene.hpp"
 
 int main() {
 	InitWindow(WINDOW_WIDTH, WINDOW_HEIGHT, "Test Window");

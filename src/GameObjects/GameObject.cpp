@@ -1,4 +1,4 @@
-#include "GameObject.hpp"
+#include "GameObjects/GameObject.hpp"
 
 GameObject::GameObject() {}
 GameObject::GameObject(GameObject* parent) : m_parent(parent) {}
