@@ -34,3 +34,8 @@ The goal of the game is to shoot as many *Bucks* as possible in a set amount of 
     - [ ] BGM
     - [ ] Defeat music(?)
     - [ ] Sound effects
+
+## Credits
+
+- Background tilemaps: Map Pack by [Kenney Vleugels](https://www.kenney.nl)
+- Main game font: Pixeltype by [TheJman0205](https://www.dafont.com/thejman0205.d6166)
