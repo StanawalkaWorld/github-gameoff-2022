@@ -8,11 +8,9 @@ int main() {
 	InitWindow(WINDOW_WIDTH, WINDOW_HEIGHT, "Test Window");
 
 	SceneManager sm;
-
 	sm.LoadScene(new GameScene(), 0);
 
 	while (!WindowShouldClose()) {
-
 		sm.UpdateScene();
 	}
 
