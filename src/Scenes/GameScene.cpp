@@ -1,8 +1,18 @@
 #include "Scenes/GameScene.hpp"
 
-void GameScene::Start()
+GameScene::GameScene()
 {
 	m_level_bg = LoadTexture("assets/img/bg/level_01.png");
+}
+
+GameScene::~GameScene()
+{
+	UnloadTexture(m_level_bg);
+}
+
+void GameScene::Start()
+{
+	
 }
 
 void GameScene::Update()
