@@ -13,8 +13,11 @@ The goal of the game is to shoot as many *Bucks* as possible in a set amount of 
 ## Todo
 
 - [ ] Game plan
-    - [ ] Come up with a name for the game
-    - [ ] Think about, what game to make
+    - [x] Come up with a name for the game
+    - [x] Think about, what game to make
+    - [ ] Scenery
+    - [ ] Power ups
+    - [ ] Upgrades
 - [ ] Code
     - [x] Scene management
     - [ ] Player
