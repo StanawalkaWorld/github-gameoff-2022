@@ -3,6 +3,8 @@
 
 #include <raylib.h>
 
+#include "GameObject.hpp"
+
 class GameScene : public Scene {
 private:
 	Texture2D m_level_bg;
